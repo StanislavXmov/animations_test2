@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(209 213 219 / 1);
+}
+
+.fadeout {
+  mask-image: linear-gradient(rgb(0 0 0 / 100%), transparent);
+}
