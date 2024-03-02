@@ -5,6 +5,8 @@ import { Drag } from "./components/Drag";
 import { Fade } from "./components/Fade";
 import Header from "./components/Header";
 import { Icons } from "./components/Icons";
+import { Loader } from "./components/Loader";
+import { Scale } from "./components/Scale";
 
 export const App = () => {
 
@@ -18,6 +20,8 @@ export const App = () => {
         <Cart />
         <Drag />
         <Fade />
+        <Scale />
+        <Loader />
       </div>
     </div>
   );
