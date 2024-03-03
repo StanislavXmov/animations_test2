@@ -6,6 +6,7 @@ import { Fade } from "./components/Fade";
 import Header from "./components/Header";
 import { Icons } from "./components/Icons";
 import { Loader } from "./components/Loader";
+import { Modal } from "./components/Modal";
 import { Scale } from "./components/Scale";
 
 export const App = () => {
@@ -14,6 +15,7 @@ export const App = () => {
     <div className="relative">
       <Header />
       <div className="flex justify-center items-center flex-col pt-32 gap-16">
+        <Modal />
         <Icons />
         <Button title="Button"/>
         <Banner />
