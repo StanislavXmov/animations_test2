@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export const Loader = () => {
   return (
-    <div className='w-96 h-24 flex items-center flex-col justify-center mt-6 px-6 py-4 bg-gray-100 rounded-lg'>
+    <div className='w-96 h-24 flex items-center flex-col justify-center mt-6 mb-12 px-6 py-4 bg-gray-100 rounded-lg'>
       <motion.h4 
         style={{color:' #6a6b6d'}}
         animate={{
