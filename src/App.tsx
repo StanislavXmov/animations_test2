@@ -10,6 +10,7 @@ import { Loader } from "./components/Loader";
 import { Modal } from "./components/Modal";
 import { Navigation } from "./components/Navigation";
 import { Scale } from "./components/Scale";
+import { Counter } from "./components/Counter";
 
 export const App = () => {
 
@@ -28,6 +29,7 @@ export const App = () => {
           <Fade />
           <Scale />
           <Loader />
+          <Counter />
         </div>
       </div>
     </BrowserRouter>
